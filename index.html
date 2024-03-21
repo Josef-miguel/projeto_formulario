@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição vestibular</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+    <h1 class="mx-5">Inscrição para o vestibular para a UN</h1>
+    <div class=" mx-3 my-3  w-50">
+        <label class="form-label ">Nome</label>
+
+
+            <input class="form-control" type="text" name="f_nome">
+        </div>
+        <div class=" mx-3 my-3 w-50 ">
+            <label class="form-label ">CPF</label>
+
+                <input class="form-control" type="text" name="f_cpf">
+            </div>
+    </div>
+    <div class="my-3 mx-3 row ">
+        <div class="my-3 col" >
+            <label class="form-label">E-mail</label>
+            <input class="form-control" type="email" name="f_email">
+        </div>
+        <div class="my-3 col"  >
+            <label class="form-label">Senha</label>
+            <input class="form-control" type="password" name="f_senha">
+        </div>
+    </div>
+    <p class="mx-3">Sexo</p>
+    <div class="form-check mx-3">
+        
+        <input class="form-check-input" type="radio" name="flexRadioDefault" >
+        <label class="form-check-label" >
+        masculino
+        </label>
+      </div>
+      <div class="form-check mx-3">
+        <input class="form-check-input" type="radio" name="flexRadioDefault"  checked>
+        <label class="form-check-label" >
+      feminino
+        </label>
+      </div>
+       <div class="mx-3"> 
+            <label class="form-label">Telefone de contato</label>
+             <input class="form-control " type="text" name="f_telefone">
+
+       </div>
+
+    <div class="my-3 row">
+        <div class="my-3 col">
+            <label class="form-label">Data de expedição</label>
+            <input class="form-control" type="date" name="f_expedicoa">
+        </div>
+        <div class="my-3 col">
+            <label class="form-label">Data de Nascimento</label>
+            <input class="form-control" type="date" name="f_nascimento">
+        </div>
+        <div class="my-3 row">
+            <div class="my-3 col">
+                <label class="form-label">Instituição de expedição</label>
+                <input class="form-control" type="text" name="f_expedicoa">
+            </div>
+            <div class="my-3 col">
+                <label class="form-label">UF de expedição</label>
+                <select name="f_uf" class="form-select">
+                    <option value="">São Paulo</option>
+                    <option value="">Paraná</option>
+                    <option value="">Rio de Janeiro</option>
+                    <option value="">Goias</option>
+                    <option value="">Tocantins</option>
+                    <option value="">Maranhão</option>
+                    <option value="">Brasília</option>
+                    <option value="">Pernambuco</option>
+                    <option value="">Paraíba</option>
+                    <option value="">Ceára</option>
+                    <option value="">Píaui</option>
+                    <option value="">Bahia</option>
+                    <option value="">Espírito santo</option>
+                    <option value="">Minas gerais</option>
+                    <option value="">Mato grosso</option>
+                    <option value="">Mato grosso do sul</option>
+                    <option value="">Rio grande do norte</option>
+                    <option value="">Rio grande do sul</option>
+                    <option value="">Santa catarina</option>
+                    <option value="">Amazonas</option>
+                    <option value="">Pará</option>
+                    <option value="">Acre</option>
+                    <option value="">Roraima</option>
+                    <option value="">Sergipe</option>
+                    <option value="">Rondônia</option>
+                    
+
+                </select>
+            </div>
+    </div>
+    <div class="my-3">
+        <label class="form-label">Nacionalidade</label>
+        <select name="f_uf" class="form-select">
+            <option value="">Brasileiro</option>
+            <option value="">Extrangeiro</option>
+        
+        </select>
+    </div>
+    <div class="my-3">
+        <label class="form-label">Escolaridade</label>
+        <select name="f_uf" class="form-select">
+            <option value="">Ensino médio completo</option>
+            <option value="">Ensino fundamental II completo</option>
+            <option value="">Ensino fundamental I completo</option>
+            <option value="">Sem escolaridade</option>
+
+        
+        </select>
+    </div>
+    <div class="my-3 row">
+        <div class="my-3 col">
+            <label class="form-label">Nome da mãe</label>
+            <input class="form-control" type="text" name="f_expedicoa">
+        </div>
+        <div class="my-3 col">
+            <label class="form-label">CPF da mãe</label>
+            <input class="form-control" type="text" name="f_nascimento">
+        </div>
+                <div>
+                    <input type="checkbox" class="form-check-input">
+                    <label class="form-check-label">Nome da mãe não consta na certidão de nascimento</label>
+                </div>
+    </div>
+    <div class="my-3 row">
+        <div class="my-3 col">
+            <label class="form-label">Nome do pai</label>
+            <input class="form-control" type="text" name="f_expedicoa">
+        </div>
+        <div class="my-3 col">
+            <label class="form-label">CPF do pai</label>
+            <input class="form-control" type="text" name="f_nascimento">
+        </div>
+            <div class="my-3">
+   
+                <div>
+                    <input type="checkbox" class="form-check-input">
+                    <label class="form-check-label">Nome do pai não consta na certidão de nascimento</label>
+                </div>
+    </div>
+
+    <div class="my-3">
+        <input class="btn btn-primary" type="submit" name="btn_enviar" value="Prosseguir">
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+</html>
